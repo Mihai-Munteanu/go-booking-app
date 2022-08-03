@@ -166,7 +166,7 @@ func sendTicket(userTickets uint, firstName string, lasName string, email string
 	fmt.Printf("sending ticket:\n %v \n to email address to %v\n", ticket, email)
 	fmt.Println("########################")
 
-	// here we instruct the wg that the function is done and should be removed from the waiting list of the main thread
+	// here we instruct the wg that the f unction is done and should be removed from the waiting list of the main thread
 	wg.Done()
 }
 
